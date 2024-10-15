@@ -1,9 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ProyectoLunes">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-P6M1FBC:DESKTOP-P6M1FBC\Alumne">
+          <Created>2024-10-14T11:06:16.3382178+02:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-P6M1FBC</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>AdventureWorks2022</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="FuncionesAgregacion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P6M1FBC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-P6M1FBC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FuncionesAgregacion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ListaTerritorios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P6M1FBC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-P6M1FBC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ListaTerritorios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NuestrosSelect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P6M1FBC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-P6M1FBC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>NuestrosSelect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="NumeroTablas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P6M1FBC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-P6M1FBC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>NumeroTablas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P6M1FBC:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-P6M1FBC</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
