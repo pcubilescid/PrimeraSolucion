@@ -17,7 +17,8 @@ From Sales.SalesTerritory;
 
 -- Comentario simple
 Select [Name] as nombre, [CountryRegionCode] as pais, [SalesLastYear]
-From Sales.SalesTerritory;
+From Sales.SalesTerritory
+Order by [SalesLastYear] desc;
 
 Select *
 From Sales.SalesTerritory
